@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  image_picker: ^1.2.4
+  supabase_flutter: ^2.18.3
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/mascot_v2/grin.png
+    - assets/mascot_v2/happy.png
+    - assets/mascot_v2/sad.png
+    - assets/mascot_v2/watch.png
